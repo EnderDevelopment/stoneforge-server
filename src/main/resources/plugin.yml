@@ -1,0 +1,13 @@
+name: ResourceReport
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  serverresources:
+    description: Shows the server process resource limits and disk space.
+    usage: /serverresources
+    permission: resourcereport.view
+permissions:
+  resourcereport.view:
+    description: Allows viewing server resource information.
+    default: op
